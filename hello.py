@@ -1,0 +1,3 @@
+print("Hello, World!")
+
+print("สวัสดี, โลก!")
