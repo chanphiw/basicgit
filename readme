@@ -1,5 +1,8 @@
 Basic github 
 
+step : 
 - git status
 - git log
-- git 
+- git add .
+- git commit -m "8 test commit" 
+- git push -u origin main 
