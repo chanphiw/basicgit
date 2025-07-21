@@ -4,5 +4,136 @@ step :
 - git status
 - git log
 - git add .
-- git commit -m "8 test commit" 
+- git commit -m "9 test commit" 
 - git push -u origin main 
+
+
+
+# Learn Angular 20
+
+This repository contains a comprehensive list of resources to learn Angular 20 from scratch. It includes tutorials, articles, videos, books, and other valuable resources to help you master this powerful web framework.
+
+[![Downloads/Week](https://img.shields.io/badge/downloads/week-3%2Fweek-green?style=flat-square)](https://www.npmtrends.com/angular)
+[![Downloads/Month](https://img.shields.io/badge/downloads/month-16%2Fmonth-green?style=flat-square)](https://www.npmtrends.com/angular)
+[![Downloads/Year](https://img.shields.io/badge/downloads/year-308%2Fyear-green?style=flat-square)](https://www.npmtrends.com/angular)
+[![GitHub Issues](https://img.shields.io/github/issues/your-username/your-repo-name?style=flat-square)](https://github.com/your-username/your-repo-name/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/your-username/your-repo-name?style=flat-square)](https://github.com/your-username/your-repo-name/pulls)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+
+**Last Commit:** Today (ปรับตามวันที่ Commit จริง)
+**HTML:** 89.1% (ถ้ามีโค้ดตัวอย่าง)
+**Repo Size:** X MiB (ขนาดของ Repository)
+**Code Size:** X KiB (ขนาดของโค้ด)
+**Contributors:** X
+**Forks:** X
+**Stars:** X
+**Watchers:** X
+
+---
+
+## Table of Contents
+
+* [Introduction](#introduction)
+    * [What is Angular?](#what-is-angular)
+    * [Key Features of Angular 20](#key-features-of-angular-20)
+    * [Angular vs. Other Frameworks](#angular-vs-other-frameworks)
+* [Roadmap to Mastery](#roadmap-to-mastery)
+* [Getting Started](#getting-started)
+    * [Prerequisites](#prerequisites)
+    * [Installation (Angular CLI)](#installation-angular-cli)
+    * [Creating Your First Angular 20 Project](#creating-your-first-angular-20-project)
+* [Core Concepts](#core-concepts)
+    * [Components](#components)
+        * [Three Main Building Blocks](#three-main-building-blocks)
+        * [Component Creation](#component-creation)
+        * [Using Angular CLI for Components](#using-angular-cli-for-components)
+    * [Modules](#modules)
+        * [Standalone Components & APIs (Modern Approach)](#standalone-components-apis-modern-approach)
+        * [NgModules (Legacy/Complex Apps)](#ngmodules-legacycomplex-apps)
+    * [Templates](#templates)
+    * [Data Binding](#data-binding)
+    * [Directives](#directives)
+    * [Services & Dependency Injection](#services-dependency-injection)
+    * [Routing](#routing)
+    * [Reactive Forms](#reactive-forms)
+    * [Signals (from Angular 16 onwards)](#signals-from-angular-16-onwards)
+    * [RxJS Observables](#rxjs-observables)
+* [Advanced Topics](#advanced-topics)
+    * [State Management](#state-management)
+    * [Server-Side Rendering (SSR) & Hydration](#server-side-rendering-ssr-hydration)
+    * [Internationalization (i18n)](#internationalization-i18n)
+    * [Testing (Unit & E2E)](#testing-unit-e2e)
+    * [Performance Optimization](#performance-optimization)
+    * [Web Workers](#web-workers)
+    * [Angular with Web Components](#angular-with-web-components)
+* [Tools & Ecosystem](#tools-ecosystem)
+    * [Angular CLI](#angular-cli)
+    * [Angular DevTools](#angular-devtools)
+    * [IDEs & Extensions (VS Code)](#ides-extensions-vs-code)
+* [Community & Support](#community-support)
+    * [Official Resources](#official-resources)
+    * [Forums & Chat Groups](#forums-chat-groups)
+    * [Conferences & Meetups](#conferences-meetups)
+* [Contributing](#contributing)
+* [License](#license)
+
+---
+
+## Introduction
+
+### What is Angular?
+
+Angular is a powerful, open-source, TypeScript-based front-end web application framework developed by Google. It's used for building dynamic, single-page applications (SPAs) and complex enterprise-grade web solutions. Angular provides a robust structure and set of tools for developing large-scale, maintainable applications.
+
+### Key Features of Angular 20
+
+Angular 20 is expected to build upon the innovations from previous versions, focusing on performance, developer experience, and enhanced reactivity. Key features likely include:
+
+* **Improved Hydration & SSR Performance:** Further enhancements to Server-Side Rendering (SSR) and hydration for faster initial page loads and better SEO.
+* **Maturity of Signals:** Deeper integration and potential widespread adoption of the Signals reactivity model across the framework.
+* **Enhanced Build Performance:** Faster build times and smaller bundle sizes due to advancements in the Angular CLI and underlying build tools.
+* **Refined Standalone APIs:** Continued evolution and simplification of standalone components, directives, and pipes, making `NgModule` optional for most new applications.
+* **Accessibility (A11y) Improvements:** Tools and guidelines for building more accessible web applications.
+* **New Control Flow (Built-in @if, @for, @switch):** Stable and performant built-in control flow in templates, removing the need for `*ngIf`, `*ngFor`, etc.
+* **TypeScript Support:** Full support for the latest TypeScript features.
+
+### Angular vs. Other Frameworks
+
+* **Angular vs. React:** Angular is a full-fledged framework with opinionated structure, offering a complete solution from routing to state management. React is a library for building UIs, offering more flexibility but often requiring additional libraries for full application development.
+* **Angular vs. Vue:** Vue is known for its progressive adoption and ease of learning, bridging the gap between a library and a full framework. Angular offers a more comprehensive and structured approach, ideal for large enterprise applications.
+
+---
+
+## Roadmap to Mastery
+
+This section outlines a suggested learning path:
+
+1.  **Fundamentals:** Understand basic Angular concepts, TypeScript, and the CLI.
+2.  **Components & Templates:** Master building UI blocks and displaying data.
+3.  **Services & DI:** Learn how to share logic and data across components.
+4.  **Routing:** Navigate between different views in your application.
+5.  **Forms:** Handle user input with reactive and template-driven forms.
+6.  **Reactivity (Signals & RxJS):** Understand how Angular handles change detection and asynchronous operations.
+7.  **Advanced Topics:** Dive into state management, testing, and performance optimization.
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+To get started with Angular 20, you'll need:
+
+* **Node.js:** Latest LTS (Long Term Support) version installed. You can download it from [nodejs.org](https://nodejs.org/).
+* **npm or Yarn:** Package managers, usually installed with Node.js.
+* **TypeScript:** Angular is built with TypeScript, so basic knowledge is beneficial.
+* **Basic JavaScript, HTML, and CSS knowledge.**
+
+### Installation (Angular CLI)
+
+The Angular CLI (Command Line Interface) is your primary tool for developing Angular applications.
+
+```bash
+npm install -g @angular/cli@next # Install the latest pre-release for Angular 20
+# or
+npm install -g @angular/cli # For stable latest version if Angular 20 is released
